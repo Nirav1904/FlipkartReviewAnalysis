@@ -1,0 +1,33 @@
+
+
+.formDIV{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 400px;
+    clear: both;
+
+    /* To center both buttons */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.select{
+    display: inline-block;
+    color: white;
+}
+
+.submitButton {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AnalysisContainer{
+    padding: 5px;
+    clear: both;
+}

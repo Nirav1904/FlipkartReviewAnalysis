@@ -1,0 +1,8 @@
+// Override default variables before the import
+$body-bg: #2c4372;
+$input-bg: rgb(0, 0, 0);
+$input-color: white;
+$input-border-color: white;
+$form-text-color: white;
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
